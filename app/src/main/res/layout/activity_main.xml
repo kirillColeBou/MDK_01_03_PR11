@@ -9,13 +9,14 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@drawable/header">
+            android:background="@drawable/header"
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -28,7 +29,7 @@
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/icon_user"/>
+                    android:background="@drawable/icon_user" />
 
                 <EditText
                     android:layout_width="230dp"
@@ -36,13 +37,13 @@
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/background_search_edit_text"
+                    android:fontFamily=""
                     android:hint="Поиск"
                     android:paddingLeft="17dp"
-                    android:textSize="13sp"
                     android:textColor="#A4BDC4"
                     android:textColorHint="#A4BDC4"
-                    android:textStyle="bold"
-                    android:fontFamily=""/>
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
 
                 <ImageView
                     android:layout_width="27dp"
@@ -50,7 +51,7 @@
                     android:layout_marginLeft="13dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/basket"/>
+                    android:background="@drawable/basket" />
 
                 <ImageView
                     android:layout_width="27dp"
@@ -58,7 +59,7 @@
                     android:layout_marginLeft="13dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/menu"/>
+                    android:background="@drawable/menu" />
 
             </LinearLayout>
 
@@ -70,12 +71,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
                     android:text="Кошелёк"
                     android:textColor="@color/white"
-                    android:textSize="20sp"/>
+                    android:textSize="20sp" />
 
                 <ImageView
                     android:layout_width="17dp"
@@ -83,7 +84,7 @@
                     android:layout_marginLeft="6dp"
                     android:layout_marginTop="27dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/arrow_right"/>
+                    android:background="@drawable/arrow_right" />
 
                 <ImageView
                     android:layout_width="24dp"
@@ -91,7 +92,7 @@
                     android:layout_marginLeft="186dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/eye"/>
+                    android:background="@drawable/eye" />
 
                 <ImageView
                     android:layout_width="24dp"
@@ -99,7 +100,7 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/other"/>
+                    android:background="@drawable/other" />
 
             </LinearLayout>
 
@@ -118,37 +119,37 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
                         android:layout_marginLeft="15dp"
-                        android:background="@drawable/background_card_item">
+                        android:background="@drawable/background_card_item"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:background="@drawable/scan_qr"
                             android:layout_marginLeft="7dp"
-                            android:layout_marginRight="7dp"
                             android:layout_marginTop="10.5dp"
-                            android:layout_marginBottom="10.5dp"/>
+                            android:layout_marginRight="7dp"
+                            android:layout_marginBottom="10.5dp"
+                            android:background="@drawable/scan_qr" />
 
                     </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
                         android:layout_marginLeft="15dp"
                         android:layout_marginTop="10dp"
-                        android:background="@drawable/background_card_item">
+                        android:background="@drawable/background_card_item"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:background="@drawable/check"
                             android:layout_marginLeft="7dp"
-                            android:layout_marginRight="7dp"
                             android:layout_marginTop="10.5dp"
-                            android:layout_marginBottom="10.5dp"/>
+                            android:layout_marginRight="7dp"
+                            android:layout_marginBottom="10.5dp"
+                            android:background="@drawable/check" />
 
                     </LinearLayout>
 
@@ -164,30 +165,30 @@
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:background="@drawable/card_gold"
                         android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
                         android:layout_marginTop="8dp"
-                        android:layout_marginBottom="13dp"/>
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="13dp"
+                        android:background="@drawable/card_gold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="14.7dp"
                         android:text="0 ₽"
                         android:textColor="@color/white"
-                        android:textSize="15dp"
-                        android:layout_marginLeft="10dp"/>
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="10dp"
                         android:text="Зарплатная •• 2222"
                         android:textColor="#89A6AC"
-                        android:textSize="9.7dp"
-                        android:layout_marginLeft="10dp"/>
+                        android:textSize="9.7dp" />
 
                 </LinearLayout>
 
@@ -201,30 +202,30 @@
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:background="@drawable/card_gray"
                         android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
                         android:layout_marginTop="8dp"
-                        android:layout_marginBottom="13dp"/>
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="13dp"
+                        android:background="@drawable/card_gray" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="14.7dp"
                         android:text="0 ₽"
                         android:textColor="@color/white"
-                        android:textSize="15dp"
-                        android:layout_marginLeft="10dp"/>
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="10dp"
                         android:text="Резервная •• 9999"
                         android:textColor="#89A6AC"
-                        android:textSize="9.7dp"
-                        android:layout_marginLeft="10dp"/>
+                        android:textSize="9.7dp" />
 
                 </LinearLayout>
 
@@ -238,32 +239,145 @@
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:background="@drawable/card_gray"
                         android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
                         android:layout_marginTop="8dp"
-                        android:layout_marginBottom="13dp"/>
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="13dp"
+                        android:background="@drawable/card_black" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="14.7dp"
-                        android:text="0 ₽"
+                        android:text="52 525.20 ₽"
                         android:textColor="@color/white"
-                        android:textSize="15dp"
-                        android:layout_marginLeft="10dp"/>
+                        android:textSize="15dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Резервная •• 9999"
+                        android:text="Кредитная •• 9999"
                         android:textColor="#89A6AC"
-                        android:textSize="9.7dp"
-                        android:layout_marginLeft="10dp"/>
+                        android:textSize="9.7dp" />
 
                 </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingLeft="0dp"
+            android:background="@drawable/advertising"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Скидка до 3 000 ₽"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="4dp"
+                    android:text="На любой заказ"
+                    android:textColor="#736C73" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="27dp"
+                    android:paddingLeft="4dp"
+                    android:text="в Мегамаркете"
+                    android:textColor="#736C73" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@drawable/gift" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/cross" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="65dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:background="@drawable/background_information"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="2dp"
+                                android:text="Реклама Рекламодатель megamarket.ru"
+                                android:textColor="#C2BBCD"
+                                android:textSize="9dp" />
+
+                            <ImageView
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="3dp"
+                                android:background="@drawable/information" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+
 
             </LinearLayout>
 
