@@ -10,7 +10,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="41dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -32,7 +34,7 @@
                     android:background="@drawable/icon_user" />
 
                 <EditText
-                    android:layout_width="230dp"
+                    android:layout_width="250dp"
                     android:layout_height="35dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="10dp"
@@ -89,7 +91,7 @@
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:layout_marginLeft="186dp"
+                    android:layout_marginLeft="206dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/eye" />
@@ -250,7 +252,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="14.7dp"
-                        android:text="52 525.20 ₽"
+                        android:text="52 525,20 ₽"
                         android:textColor="@color/white"
                         android:textSize="15dp" />
 
@@ -276,13 +278,13 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="25dp"
             android:layout_marginRight="25dp"
-            android:layout_marginBottom="25dp"
-            android:paddingBottom="0dp"
+            android:layout_marginBottom="17dp"
+            android:background="@drawable/advertising"
+            android:orientation="horizontal"
+            android:paddingLeft="0dp"
             android:paddingTop="0dp"
             android:paddingRight="0dp"
-            android:paddingLeft="0dp"
-            android:background="@drawable/advertising"
-            android:orientation="horizontal">
+            android:paddingBottom="0dp">
 
             <LinearLayout
                 android:layout_width="137dp"
@@ -330,9 +332,9 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="80dp"
-                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="75dp"
                         android:layout_marginTop="25dp"
+                        android:layout_marginRight="65dp"
                         android:layout_marginBottom="1dp"
                         android:background="@drawable/gift" />
 
@@ -352,8 +354,8 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="13dp"
                             android:layout_marginTop="65dp"
-                            android:layout_marginRight="0dp"
                             android:layout_marginBottom="0dp"
                             android:background="@drawable/background_information"
                             android:orientation="horizontal">
@@ -371,13 +373,412 @@
                                 android:layout_width="13dp"
                                 android:layout_height="13dp"
                                 android:layout_marginLeft="3dp"
-                                android:layout_marginRight="15dp"
                                 android:layout_marginTop="3dp"
+                                android:layout_marginRight="15dp"
                                 android:background="@drawable/information" />
+
                         </LinearLayout>
+
                     </LinearLayout>
+
                 </FrameLayout>
 
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Переводы на Сбер"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="157dp"
+                    android:text="Все (13)"
+                    android:textColor="#227831"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/transaction">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="9dp"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginRight="9dp"
+                            android:layout_marginBottom="9dp"
+                            android:src="@drawable/arrow" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="Новый перевод"
+                        android:textColor="#227831"
+                        android:textSize="10sp" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="right"
+                        android:background="@drawable/cross" />
+
+                    <LinearLayout
+                        android:layout_width="64dp"
+                        android:layout_height="wrap_content"
+
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="54.5dp"
+                            android:layout_height="54.5dp"
+                            android:background="@drawable/transaction_user">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="15.5dp"
+                                android:layout_marginTop="9dp"
+                                android:layout_marginRight="9dp"
+                                android:layout_marginBottom="9dp"
+                                android:text="Л Л"
+                                android:textColor="#6A6A6A" />
+                            />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Леонид Лукиных"
+                            android:textColor="@color/black"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp">
+
+                    <LinearLayout
+                        android:layout_width="64dp"
+                        android:layout_height="wrap_content"
+
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="54.5dp"
+                            android:layout_height="54.5dp"
+                            android:background="@drawable/transaction_user">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="15.5dp"
+                                android:layout_marginTop="9dp"
+                                android:layout_marginRight="9dp"
+                                android:layout_marginBottom="9dp"
+                                android:text="Л Л"
+                                android:textColor="#6A6A6A" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Леонид Лукиных"
+                            android:textColor="@color/black"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="13dp"
+                        android:layout_height="13dp"
+                        android:background="@drawable/notification"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_gravity="center|right">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="4dp"
+                            android:text="1"
+                            android:textColor="@color/white"
+                            android:textSize="8dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp">
+
+                    <LinearLayout
+                        android:layout_width="64dp"
+                        android:layout_height="wrap_content"
+
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="54.5dp"
+                            android:layout_height="54.5dp"
+                            android:background="@drawable/transaction_user">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="15.5dp"
+                                android:layout_marginTop="9dp"
+                                android:layout_marginRight="9dp"
+                                android:layout_marginBottom="9dp"
+                                android:text="Л Л"
+                                android:textColor="#6A6A6A" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Леонид Лукиных"
+                            android:textColor="@color/black"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="13dp"
+                        android:layout_height="13dp"
+                        android:background="@drawable/notification"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_gravity="center|right">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="4dp"
+                            android:text="1"
+                            android:textColor="@color/white"
+                            android:textSize="8dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp">
+
+                    <LinearLayout
+                        android:layout_width="64dp"
+                        android:layout_height="wrap_content"
+
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="54.5dp"
+                            android:layout_height="54.5dp"
+                            android:background="@drawable/transaction_user">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="15.5dp"
+                                android:layout_marginTop="9dp"
+                                android:layout_marginRight="9dp"
+                                android:layout_marginBottom="9dp"
+                                android:text="Л Л"
+                                android:textColor="#6A6A6A" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Леонид Лукиных"
+                            android:textColor="@color/black"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="13dp"
+                        android:layout_height="13dp"
+                        android:background="@drawable/notification"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_gravity="center|right">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="4dp"
+                            android:text="1"
+                            android:textColor="@color/white"
+                            android:textSize="8dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp">
+
+                    <LinearLayout
+                        android:layout_width="64dp"
+                        android:layout_height="wrap_content"
+
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="54.5dp"
+                            android:layout_height="54.5dp"
+                            android:background="@drawable/transaction_user">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="15.5dp"
+                                android:layout_marginTop="9dp"
+                                android:layout_marginRight="9dp"
+                                android:layout_marginBottom="9dp"
+                                android:text="Л Л"
+                                android:textColor="#6A6A6A" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Леонид Лукиных"
+                            android:textColor="@color/black"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="13dp"
+                        android:layout_height="13dp"
+                        android:background="@drawable/notification"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_gravity="center|right">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="4dp"
+                            android:text="1"
+                            android:textColor="@color/white"
+                            android:textSize="8dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </FrameLayout>
 
             </LinearLayout>
 
