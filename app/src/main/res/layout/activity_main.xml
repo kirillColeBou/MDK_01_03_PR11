@@ -354,7 +354,7 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="13dp"
+                            android:layout_marginLeft="22dp"
                             android:layout_marginTop="65dp"
                             android:layout_marginBottom="0dp"
                             android:background="@drawable/background_information"
@@ -783,6 +783,155 @@
             </LinearLayout>
 
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Расходы в мае"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="225dp"
+                    android:text="Все"
+                    android:textColor="#227831"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="135dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/background_expenses"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/expenses"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 198 ₽"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="18dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Все расходы \nиз 45 000 ₽"
+                        android:textColor="#737373"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="13dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="135dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="@drawable/background_expenses"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/bus"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="9dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Транспорт"
+                        android:textColor="#737373"
+                        android:layout_marginTop="38dp"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="13dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="928 ₽"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="135dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="@drawable/background_expenses"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/eat"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="9dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Рестораны \nи кафе"
+                        android:textColor="#737373"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="13dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="270 ₽"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
 
     </LinearLayout>
 
