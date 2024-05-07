@@ -24,7 +24,8 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:background="@drawable/icon_user" />
+                android:background="@drawable/icon_user"
+                android:onClick="SelectUser"/>
 
             <EditText
                 android:layout_width="250dp"
@@ -45,7 +46,8 @@
                 android:layout_marginLeft="13dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="10dp"
-                android:background="@drawable/basket"/>
+                android:background="@drawable/basket"
+                android:onClick="SelectBasket"/>
 
             <ImageView
                 android:layout_width="27dp"
@@ -53,7 +55,8 @@
                 android:layout_marginLeft="13dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="10dp"
-                android:background="@drawable/menu" />
+                android:background="@drawable/menu"
+                android:onClick="SelectMenu"/>
 
         </LinearLayout>
 
@@ -88,7 +91,8 @@
                             android:layout_marginBottom="10dp"
                             android:text="Кошелёк"
                             android:textColor="@color/white"
-                            android:textSize="20sp" />
+                            android:textSize="20sp"
+                            android:onClick="SelectWallet"/>
 
                         <ImageView
                             android:layout_width="17dp"
@@ -96,7 +100,8 @@
                             android:layout_marginLeft="6dp"
                             android:layout_marginTop="27dp"
                             android:layout_marginBottom="10dp"
-                            android:background="@drawable/arrow_right" />
+                            android:background="@drawable/arrow_right"
+                            android:onClick="SelectWallet"/>
 
                         <ImageView
                             android:layout_width="24dp"
@@ -104,7 +109,8 @@
                             android:layout_marginLeft="206dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginBottom="10dp"
-                            android:background="@drawable/eye" />
+                            android:background="@drawable/eye"
+                            android:onClick="SelectHideInformation"/>
 
                         <ImageView
                             android:layout_width="24dp"
@@ -112,7 +118,8 @@
                             android:layout_marginLeft="16dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginBottom="10dp"
-                            android:background="@drawable/other" />
+                            android:background="@drawable/other"
+                            android:onClick="SelectOther"/>
 
                     </LinearLayout>
 
@@ -138,7 +145,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
                                     android:background="@drawable/background_card_item"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:onClick="SelectScan">
 
                                     <ImageView
                                         android:layout_width="30dp"
@@ -157,7 +165,8 @@
                                     android:layout_marginLeft="15dp"
                                     android:layout_marginTop="10dp"
                                     android:background="@drawable/background_card_item"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:onClick="SelectCheck">
 
                                     <ImageView
                                         android:layout_width="30dp"
@@ -177,7 +186,8 @@
                                 android:layout_height="120dp"
                                 android:layout_marginLeft="10dp"
                                 android:background="@drawable/background_card_item"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:onClick="SelectGoldCard">
 
                                 <ImageView
                                     android:layout_width="30dp"
@@ -214,7 +224,8 @@
                                 android:layout_height="120dp"
                                 android:layout_marginLeft="10dp"
                                 android:background="@drawable/background_card_item"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:onClick="SelectGrayCard">
 
                                 <ImageView
                                     android:layout_width="30dp"
@@ -251,7 +262,8 @@
                                 android:layout_height="120dp"
                                 android:layout_marginLeft="10dp"
                                 android:background="@drawable/background_card_item"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:onClick="SelectBlackCard">
 
                                 <ImageView
                                     android:layout_width="30dp"
@@ -301,7 +313,8 @@
                     android:paddingLeft="0dp"
                     android:paddingTop="0dp"
                     android:paddingRight="0dp"
-                    android:paddingBottom="0dp">
+                    android:paddingBottom="0dp"
+                    android:onClick="SelectAdvertising">
 
                     <LinearLayout
                         android:layout_width="137dp"
@@ -366,7 +379,8 @@
                                     android:layout_gravity="right"
                                     android:layout_marginTop="5dp"
                                     android:layout_marginRight="5dp"
-                                    android:background="@drawable/cross" />
+                                    android:background="@drawable/cross"
+                                    android:onClick="SelectHideAdvertising"/>
 
                                 <LinearLayout
                                     android:layout_width="wrap_content"
@@ -433,7 +447,8 @@
                             android:layout_marginLeft="157dp"
                             android:text="Все (13)"
                             android:textColor="#227831"
-                            android:textSize="14sp" />
+                            android:textSize="14sp"
+                            android:onClick="SelectAllTransaction"/>
 
                     </LinearLayout>
 
@@ -456,7 +471,8 @@
                                 android:paddingRight="5dp"
                                 android:paddingBottom="5dp"
                                 android:paddingTop="5dp"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:onClick="SelectNewTransaction">
 
                                 <LinearLayout
                                     android:layout_width="wrap_content"
@@ -488,13 +504,15 @@
                             <FrameLayout
                                 android:layout_height="wrap_content"
                                 android:layout_width="wrap_content"
-                                android:layout_marginLeft="10dp">
+                                android:layout_marginLeft="10dp"
+                                android:onClick="SelectUserTransaction">
 
                                 <ImageView
                                     android:layout_width="15dp"
                                     android:layout_height="15dp"
                                     android:layout_gravity="right"
-                                    android:background="@drawable/cross" />
+                                    android:background="@drawable/cross"
+                                    android:onClick="SelectHideUserTransaction"/>
 
                                 <LinearLayout
                                     android:layout_width="64dp"
@@ -541,7 +559,8 @@
                             <FrameLayout
                                 android:layout_height="wrap_content"
                                 android:layout_width="wrap_content"
-                                android:layout_marginLeft="10dp">
+                                android:layout_marginLeft="10dp"
+                                android:onClick="SelectUserTransaction">
 
                                 <LinearLayout
                                     android:layout_width="64dp"
@@ -607,7 +626,8 @@
                             <FrameLayout
                                 android:layout_height="wrap_content"
                                 android:layout_width="wrap_content"
-                                android:layout_marginLeft="10dp">
+                                android:layout_marginLeft="10dp"
+                                android:onClick="SelectUserTransaction">
 
                                 <LinearLayout
                                     android:layout_width="64dp"
@@ -673,7 +693,8 @@
                             <FrameLayout
                                 android:layout_height="wrap_content"
                                 android:layout_width="wrap_content"
-                                android:layout_marginLeft="10dp">
+                                android:layout_marginLeft="10dp"
+                                android:onClick="SelectUserTransaction">
 
                                 <LinearLayout
                                     android:layout_width="64dp"
@@ -739,7 +760,8 @@
                             <FrameLayout
                                 android:layout_height="wrap_content"
                                 android:layout_width="wrap_content"
-                                android:layout_marginLeft="10dp">
+                                android:layout_marginLeft="10dp"
+                                android:onClick="SelectUserTransaction">
 
                                 <LinearLayout
                                     android:layout_width="64dp"
@@ -837,7 +859,8 @@
                             android:layout_marginLeft="215dp"
                             android:text="Все"
                             android:textColor="#227831"
-                            android:textSize="14sp" />
+                            android:textSize="14sp"
+                            android:onClick="SelectExpenses"/>
 
                     </LinearLayout>
 
@@ -856,7 +879,8 @@
                                 android:layout_width="135dp"
                                 android:layout_height="160dp"
                                 android:background="@drawable/background_expenses"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:onClick="SelectAllExpenses">
 
                                 <ImageView
                                     android:layout_width="55dp"
@@ -891,7 +915,8 @@
                                 android:layout_height="160dp"
                                 android:layout_marginLeft="7dp"
                                 android:background="@drawable/background_expenses"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:onClick="SelectBusExpenses">
 
                                 <ImageView
                                     android:layout_width="55dp"
@@ -926,7 +951,8 @@
                                 android:layout_height="160dp"
                                 android:layout_marginLeft="7dp"
                                 android:background="@drawable/background_expenses"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:onClick="SelectEatExpenses">
 
                                 <ImageView
                                     android:layout_width="55dp"
@@ -977,21 +1003,24 @@
                         android:text="Кредиты"
                         android:textColor="@color/black"
                         android:textSize="17sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold"
+                        android:onClick="SelectCredit"/>
 
                     <ImageView
                         android:layout_width="16dp"
                         android:layout_height="20dp"
                         android:src="@drawable/arrow_down"
                         android:layout_marginLeft="5dp"
-                        android:layout_gravity="center"/>
+                        android:layout_gravity="center"
+                        android:onClick="SelectCredit"/>
 
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="20dp"
                         android:src="@drawable/plus"
                         android:layout_marginLeft="245dp"
-                        android:layout_gravity="center"/>
+                        android:layout_gravity="center"
+                        android:onClick="SelectNewCredit"/>
 
                 </LinearLayout>
 
@@ -1033,7 +1062,8 @@
                                 android:layout_width="135dp"
                                 android:layout_height="160dp"
                                 android:background="@drawable/background_expenses"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:onClick="SelectNewService">
 
                                 <ImageView
                                     android:layout_width="35dp"
@@ -1068,7 +1098,8 @@
                                 android:layout_height="160dp"
                                 android:layout_marginLeft="7dp"
                                 android:background="@drawable/background_expenses"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:onClick="SelectAllService">
 
                                 <ImageView
                                     android:layout_width="35dp"
@@ -1094,7 +1125,8 @@
                                 android:layout_height="160dp"
                                 android:layout_marginLeft="7dp"
                                 android:background="@drawable/background_expenses"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:onClick="SelectServiceForYou">
 
                                 <ImageView
                                     android:layout_width="35dp"
@@ -1159,7 +1191,8 @@
                             android:layout_marginLeft="213dp"
                             android:text="Ещё"
                             android:textColor="#227831"
-                            android:textSize="14sp" />
+                            android:textSize="14sp"
+                            android:onClick="SelectRecommendation"/>
 
                     </LinearLayout>
 
@@ -1178,7 +1211,8 @@
                                 android:layout_width="145dp"
                                 android:layout_height="270dp"
                                 android:background="@drawable/background_expenses"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:onClick="SelectBirthday">
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -1228,7 +1262,8 @@
                                 android:layout_height="270dp"
                                 android:layout_marginLeft="7dp"
                                 android:background="@drawable/background_expenses"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:onClick="SelectPromocode">
 
                                 <FrameLayout
                                     android:layout_width="match_parent"
@@ -1340,7 +1375,8 @@
                                 android:layout_height="270dp"
                                 android:layout_marginLeft="7dp"
                                 android:background="@drawable/background_expenses"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:onClick="SelectSale">
 
                                 <FrameLayout
                                     android:layout_width="match_parent"
@@ -1482,7 +1518,8 @@
                             android:layout_marginLeft="213dp"
                             android:text="Ещё"
                             android:textColor="#227831"
-                            android:textSize="14sp" />
+                            android:textSize="14sp"
+                            android:onClick="SelectAllCourseValute"/>
 
                     </LinearLayout>
 
@@ -1527,7 +1564,8 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:orientation="vertical"
-                                    android:layout_marginLeft="25dp">
+                                    android:layout_marginLeft="25dp"
+                                    android:onClick="SelectCNYCourseValute">
 
                                     <LinearLayout
                                         android:layout_width="wrap_content"
@@ -1612,7 +1650,8 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:orientation="vertical"
-                                    android:layout_marginLeft="32dp">
+                                    android:layout_marginLeft="32dp"
+                                    android:onClick="SelectUSDCourseValute">
 
                                     <LinearLayout
                                         android:layout_width="wrap_content"
@@ -1697,7 +1736,8 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:orientation="vertical"
-                                    android:layout_marginLeft="32dp">
+                                    android:layout_marginLeft="32dp"
+                                    android:onClick="SelectEURCourseValute">
 
                                     <LinearLayout
                                         android:layout_width="wrap_content"
@@ -1790,21 +1830,21 @@
 
         </ScrollView>
 
-
-
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:gravity="bottom">
+        android:gravity="bottom"
+        android:layout_marginBottom="5dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginLeft="16dp">
+            android:layout_marginLeft="16dp"
+            android:onClick="SelectHomePage">
 
             <ImageView
                 android:layout_width="35dp"
@@ -1824,7 +1864,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginLeft="16dp">
+            android:layout_marginLeft="16dp"
+            android:onClick="SelectDiagramPage">
 
             <ImageView
                 android:layout_width="35dp"
@@ -1843,7 +1884,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginLeft="16dp">
+            android:layout_marginLeft="16dp"
+            android:onClick="SelectAssistentPage">
 
             <ImageView
                 android:layout_width="35dp"
@@ -1862,7 +1904,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginLeft="16dp">
+            android:layout_marginLeft="16dp"
+            android:onClick="SelectPaymentPage">
 
             <ImageView
                 android:layout_width="35dp"
@@ -1881,7 +1924,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginLeft="15dp">
+            android:layout_marginLeft="15dp"
+            android:onClick="SelectClockPage">
 
             <ImageView
                 android:layout_width="35dp"
