@@ -132,7 +132,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"
-                            android:layout_marginBottom="30dp"
+                            android:layout_marginBottom="35dp"
                             android:orientation="horizontal">
 
                             <LinearLayout
@@ -607,7 +607,8 @@
                                     android:background="@drawable/notification"
                                     android:layout_marginRight="8dp"
                                     android:layout_marginTop="3dp"
-                                    android:layout_gravity="center|right">
+                                    android:layout_gravity="center|right"
+                                    android:onClick="SelectNotification">
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -674,7 +675,8 @@
                                     android:background="@drawable/notification"
                                     android:layout_marginRight="8dp"
                                     android:layout_marginTop="3dp"
-                                    android:layout_gravity="center|right">
+                                    android:layout_gravity="center|right"
+                                    android:onClick="SelectNotification">
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -741,7 +743,8 @@
                                     android:background="@drawable/notification"
                                     android:layout_marginRight="8dp"
                                     android:layout_marginTop="3dp"
-                                    android:layout_gravity="center|right">
+                                    android:layout_gravity="center|right"
+                                    android:onClick="SelectNotification">
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -808,7 +811,8 @@
                                     android:background="@drawable/notification"
                                     android:layout_marginRight="8dp"
                                     android:layout_marginTop="3dp"
-                                    android:layout_gravity="center|right">
+                                    android:layout_gravity="center|right"
+                                    android:onClick="SelectNotification">
 
                                     <TextView
                                         android:layout_width="wrap_content"

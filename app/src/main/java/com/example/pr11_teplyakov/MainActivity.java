@@ -112,4 +112,6 @@ public class MainActivity extends AppCompatActivity {
     public void SelectPaymentPage(View view){AlertDialog("Уведомление","Страница платежи");}
 
     public void SelectClockPage(View view){AlertDialog("Уведомление","Страница история");}
+
+    public void SelectNotification(View view){AlertDialog("Уведомление","Уведомление о переводе");}
 }
